@@ -3,7 +3,6 @@
 @import "./type3.css";
 @import "./type2.css";
 @import "./type1.css";
-
 @import "./magazine.css";
 @import "./slide.css";
 @import "./subscribe.css";
@@ -12,11 +11,11 @@ main {
   background-color: white;
   padding: 0.75rem 1rem;
 }
+
 .stories-title {
   font-size: 16px;
   font-weight: 700;
   color: #a4a4a4;
-  /* margin: 8px; */
   padding: 0.75rem 0;
 }
 
@@ -38,6 +37,7 @@ main {
   font-weight: bold;
   font-size: 19px;
 }
+
 .ai-c {
   align-items: center;
 }
@@ -47,14 +47,14 @@ main {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
-    no-repeat #f72210;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
 }
 
 .flex-xs {
   display: flex;
 }
+
 .lk {
   display: inline-block;
   padding: 10px 10px 10px 12px;
@@ -66,14 +66,13 @@ main {
   margin-bottom: 10px;
 }
 
-.lk:after {
-  content: "";
+.lk::after {
+  content: " ";
   display: inline-block;
   width: 8px;
   height: 14px;
   margin-left: 10px;
-  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg)
-    center/contain no-repeat;
+  background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
 .lk-5 {
