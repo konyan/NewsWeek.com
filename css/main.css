@@ -2,6 +2,7 @@
 @import "./nav.css";
 @import "./body.css";
 @import "./footer.css";
+@import "./inline.css";
 
 html,
 body {
